@@ -21,7 +21,7 @@ images.forEach((image, index) => {
     lightbox.appendChild(img);
   });
 });
-
+//hello
 lightbox.addEventListener("click", e => {
   if (e.target !== e.currentTarget) return;
   lightbox.classList.remove("active");
